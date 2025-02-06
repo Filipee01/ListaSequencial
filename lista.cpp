@@ -25,6 +25,7 @@ public:
     // 4. obter o tamanho da ListaSequencial
     int getTamanho() {
         return tAtual;
+        
     }
 
     // 5. obter o valor do elemento de uma determinada posicao
