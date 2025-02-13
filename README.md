@@ -1,7 +1,25 @@
-**Lista Sequencial**
+# Lista Sequencial
 
-Este repositório contém a implementação de uma Lista Sequencial em C++, com diversas operações básicas.
+Este repositório contém a implementação de uma **Lista Sequencial** em C++, com várias operações básicas como inserção, remoção e modificação de elementos.
 
+## Funcionalidades Implementadas
+
+A classe `ListaSequencial` possui as seguintes operações:
+
+1. **Inserir um elemento**
+2. **Modificar um elemento**
+3. **Remover um elemento**
+4. **Obter um elemento**
+5. **Obter o tamanho da lista**
+6. **Exibir a lista**
+
+## Como Rodar o Código
+
+### 1. Clonar o Repositório
+
+Primeiro, clone o repositório para sua máquina local. Abra o terminal e execute o seguinte comando:
+
+```bash
 
 *Como Rodar o Código*
 1. Clonar o Repositório
@@ -38,8 +56,6 @@ Agora, execute o programa gerado com o comando:
 bash
 
 ./iniciar
-
-Isso irá rodar o código e você verá os resultados dos testes da lista sequencial no terminal.
 
 5. Casos de Teste
 
