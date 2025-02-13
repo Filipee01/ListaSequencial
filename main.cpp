@@ -4,7 +4,7 @@
 using namespace std;
 
 void mostrarMenu() {
-    cout << "\nMenu de Operações:\n";
+    cout << "\nMenu de Operacoes:\n";
     cout << "1. Inserir um elemento\n";
     cout << "2. Modificar um elemento\n";
     cout << "3. Remover um elemento\n";
@@ -12,7 +12,7 @@ void mostrarMenu() {
     cout << "5. Obter o tamanho da lista\n";
     cout << "6. Exibir a lista\n";
     cout << "7. Sair\n";
-    cout << "Escolha uma opção: ";
+    cout << "Escolha uma opcao: ";
 }
 
 void executarOperacoes() {
@@ -25,7 +25,7 @@ void executarOperacoes() {
 
         switch (opcao) {
             case 1: // Inserir um elemento
-                cout << "Digite a posição para inserir: ";
+                cout << "Digite a posicao para inserir: ";
                 cin >> pos;
                 cout << "Digite o valor a ser inserido: ";
                 cin >> valor;
@@ -33,7 +33,7 @@ void executarOperacoes() {
                 break;
             
             case 2: // Modificar um elemento
-                cout << "Digite a posição do elemento a ser modificado: ";
+                cout << "Digite a posicao do elemento a ser modificado: ";
                 cin >> pos;
                 cout << "Digite o novo valor: ";
                 cin >> valor;
@@ -41,17 +41,17 @@ void executarOperacoes() {
                 break;
 
             case 3: // Remover um elemento
-                cout << "Digite a posição do elemento a ser removido: ";
+                cout << "Digite a posicao do elemento a ser removido: ";
                 cin >> pos;
                 lista.removerElemento(pos);
                 break;
             
             case 4: // Obter um elemento
-                cout << "Digite a posição do elemento a ser obtido: ";
+                cout << "Digite a posicao do elemento a ser obtido: ";
                 cin >> pos;
                 valor = lista.getElemento(pos);
                 if (valor != -1) {
-                    cout << "Valor na posição " << pos << ": " << valor << endl;
+                    cout << "Valor na posicao " << pos << ": " << valor << endl;
                 }
                 break;
 
@@ -69,7 +69,7 @@ void executarOperacoes() {
                 return;
             
             default:
-                cout << "Opção inválida! Tente novamente.\n";
+                cout << "Opcao invalida! Tente novamente.\n";
         }
     }
 }
