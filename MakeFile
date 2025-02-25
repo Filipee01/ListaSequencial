@@ -1,0 +1,17 @@
+CC = g++
+CFLAGS = -Wall -Wextra -std=c++11
+
+SRC = main.cpp ListaSequencial.cpp
+HEADERS = ListaSequencial.h
+OUT = iniciar.exe
+
+all: $(OUT)
+
+$(OUT): $(SRC) $(HEADERS)
+	$(CC) $(CFLAGS) -o $(OUT) $(SRC)
+
+run: $(OUT)
+	$(OUT)
+
+clean:
+	del $(OUT)
