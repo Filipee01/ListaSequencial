@@ -17,52 +17,48 @@ A classe `ListaSequencial` possui as seguintes operações:
 
 ### 1. Clonar o Repositório
 
-Primeiro, clone o repositório para sua máquina local. Abra o terminal e execute o seguinte comando:
+Clone o repositório para sua máquina local com o seguinte comando:
 
 ```bash
-
-*Como Rodar o Código*
-1. Clonar o Repositório
-Primeiro, clone o repositório para sua máquina local. Abra o terminal e execute o seguinte comando:
-
-bash
-
 git clone https://github.com/Filipee01/ListaSequencial.git
+```
 
-2. Navegar para o Diretório
- 
-Após clonar o repositório, navegue até o diretório do projeto:
+### 2. Navegar para o Diretório
 
-bash
+Após clonar o repositório, entre no diretório do projeto:
 
+```bash
 cd ListaSequencial
+```
 
-3. Compilação do Código
-   
-Compile os arquivos main.cpp e ListaSequencial.cpp ListaSequencial.h
+### 3. Compilar o Código
 
-utilizando o g++ para gerar o executável. 
+Utilize o **Makefile** para compilar o código. No terminal, execute:
 
-Execute o seguinte comando no terminal:
+```bash
+make
+```
 
-bash
+### 4. Executar o Programa
 
-g++ -o iniciar main.cpp ListaSequencial.cpp ListaSequencial.h
+Após a compilação, execute o programa com o comando:
 
-4. Executando o Programa
-   
-Agora, execute o programa gerado com o comando:
+```bash
+make run
+```
 
-bash
+### 5. Limpar os Arquivos Compilados
 
-./iniciar
+Para remover os arquivos gerados durante a compilação, utilize:
 
-5. Casos de Teste
+```bash
+make clean
+```
 
-Inserção de elementos na lista
+## Casos de Teste
 
-Modificação de elementos em uma posição específica
+- Inserção de elementos na lista
+- Modificação de elementos em uma posição específica
+- Remoção de elementos
+- Verificação do tamanho da lista
 
-Remoção de elementos
-
-Verificação do tamanho da lista
