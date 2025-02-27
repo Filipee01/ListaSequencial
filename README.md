@@ -55,6 +55,14 @@ Para remover os arquivos gerados durante a compilação, utilize:
 make clean
 ```
 
+## Ou use a compilação direta com o comando: 
+
+```bash
+g++ *.cpp *.h -o iniciar
+
+iniciar
+````
+
 ## Casos de Teste
 
 - Inserção de elementos na lista
